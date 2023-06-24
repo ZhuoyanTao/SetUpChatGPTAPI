@@ -1,7 +1,3 @@
-# SetUpChatGPT API
-Guide on Using ChatGPT via API
-Please always ensure that you are in compliance with local laws and regulations when setting up and using services like the OpenAI API.
-
 # Setting Up OpenAI API on Mac
 
 This guide will walk you through the process of setting up the OpenAI API on your Mac computer from the very start to end.
