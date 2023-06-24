@@ -43,7 +43,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
    _Replace your-api-key with your actual API key._
 
-5.**Verify the setup**
+5. **Verify the setup**
 
    You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
@@ -68,7 +68,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    python3 test_openai.py
    ```
 
-   6.**Setting up a VPN**
+6. **Setting up a VPN**
 
    Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
