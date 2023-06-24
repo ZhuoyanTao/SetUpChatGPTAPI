@@ -28,22 +28,22 @@ This guide will walk you through the process of setting up the OpenAI API on you
    pip install openai
    ```
 
-Get your OpenAI API key
+3. **Get your OpenAI API key**
 
-You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
+   You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
 
-Setup your OpenAI API key
+4. **Setup your OpenAI API key**
 
-You should save your API key in your environment variables for easy access. In Terminal, run:
+   You should save your API key in your environment variables for easy access. In Terminal, run:
 
    ```shell
    echo "export OPENAI_API_KEY='your-api-key'" >> ~/.bash_profile
    source ~/.bash_profile
    ```
 
-Replace your-api-key with your actual API key.
+__Replace your-api-key with your actual API key.__
 
-3.Verify the setup
+4.**Verify the setup**
 
 You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
@@ -68,12 +68,12 @@ Save this script to a file, say test_openai.py, and run it using:
 python3 test_openai.py
 ```
 
-Setting up a VPN
+5.**Setting up a VPN**
 
-Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
+   Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
-Note
-Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
+   Note
+   Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
 
 ```yaml
 ---
