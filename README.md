@@ -14,7 +14,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 - OpenAI API key
 - A VPN service (depending on the internet restrictions)
 
-## Prerequisites -- Python and Pip
+## Prerequisites -- Python, Pip, Virtual Environment
 
   **1.Install Python and pip**
    
