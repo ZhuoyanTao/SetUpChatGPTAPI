@@ -83,22 +83,18 @@
 
   Replace myenv with the name of your virtual environment.
 
-
-
 _Congratulations on setting up everything we need, now let's get to the meat!_
 
  ## Steps
 
-   **1.Activate the virtual environment**
+  **1. Activate the virtual environment**
   Before you start using the virtual environment, you need to activate it. You can do this with the following command:
-
+  (notice (base) on the very left of your command line part, this should change to the name of your conda environment after running the following command 
   ```bash
   conda activate myenv
   ```
-
   Replace myenv with the name of your virtual environment (that you created in the "Create a virtual environment" section).
-
-  Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
+  
   
   **2. Install the OpenAI Python client**
 
@@ -112,7 +108,7 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
 
    You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
 
-  **4.Setup your OpenAI API key**
+  **4. Setup your OpenAI API key**
 
    You should save your API key in your environment variables for easy access. In Terminal, run:
 
@@ -152,12 +148,12 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
 
    Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
-   Note
+   **Note**
    Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
 
   **7. Create Your Own Interface**
   
-To make your own interface for interacting with the ChatGPT API, you'll need to create an application that can send HTTP requests to the API, handle the response, and present it in a user-friendly way. This can be done in many programming languages and frameworks, and the specific steps will depend on the tools you're using.
+   To make your own interface for interacting with the ChatGPT API, you'll need to create an application that can send HTTP requests to the API, handle the response, and present it in a user-friendly way. This can be done in many programming languages and frameworks, and the specific steps will depend on the tools you're using.
 
 Here's a simplified example of how you might create a simple text-based interface in Python using the requests library:
 ```python
