@@ -159,6 +159,39 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
 To make your own interface for interacting with the ChatGPT API, you'll need to create an application that can send HTTP requests to the API, handle the response, and present it in a user-friendly way. This can be done in many programming languages and frameworks, and the specific steps will depend on the tools you're using.
 
 Here's a simplified example of how you might create a simple text-based interface in Python using the requests library:
+```python
+import requests
+import json
 
+# Set up the API call variables
+url = "https://api.openai.com/v1/engines/davinci-codex/completions"
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer YOUR_OPENAI_API_KEY"
+}
+data = {
+    "prompt": "Translate the following English text to French: '{}'",
+    "max_tokens": 60
+}
+
+# Create a loop that allows the user to enter text and get a response from the API
+while True:
+    # Get the user's input
+    text = input("Enter some text to translate, or 'quit' to quit: ")
+
+    # If the user wants to quit, break the loop
+    if text.lower() == 'quit':
+        break
+
+    # Otherwise, send the text to the OpenAI API
+    data['prompt'] = data['prompt'].format(text)
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+
+    # Print the result
+    if response.status_code == 200:
+        result = response.json()
+        print('Translation:', result['choices'][0
+
+```
 
 
