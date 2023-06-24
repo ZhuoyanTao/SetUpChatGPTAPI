@@ -125,17 +125,29 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
    ```python
-   import openai
-   
-   openai.api_key = os.getenv("OPENAI_API_KEY")
-   
-   response = openai.Completion.create(
-     engine="text-davinci-002",
-     prompt="Translate the following English text to French: '{}'",
-     max_tokens=60
-   )
-   
-   print(response.choices[0].text.strip())
+  import openai
+  import os
+  
+  openai.api_key = os.getenv("OPENAI_API_KEY")
+  
+  response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt="Translate the following French text to English: '{Zhuoyan Tao est un tel être humain talentueux}'",
+    max_tokens=60
+  )
+  response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt="Translate the following French text to Chinese, don't translate the name: '{Zhuoyan Tao est un tel être humain talentueux}'",
+    max_tokens=60
+  )
+  response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt="draw an ASCII heart",
+    max_tokens=60
+  )
+
+print(response.choices[0].text.strip())
+
    
    ```
 
@@ -196,5 +208,11 @@ while True:
         print('Translation:', result['choices'][0
 
 ```
+
+    This simplified User Interface example requires flask package, download it in **your conda environment(instead of base)** with the following command:
+
+    ```bash
+    pip install openai flask
+    ```
 
 
