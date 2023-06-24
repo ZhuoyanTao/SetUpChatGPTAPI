@@ -20,11 +20,14 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
    **Python and Pip Installation**
    
-   _Mac OS X comes with Python 2.7 out of the box between versions 10.8 and 12.3. If your Mac OS X version is between these versions, you do not need to install or configure anything else to use Python 2. However, this version of Python is great for learning, but not suitable for development. The Python version that ships with OS X may be out of date from the official current Python release, which is considered the stable production version【23†source】._
+   _Mac OS X comes with Python 2.7 out of the box between versions 10.8 and 12.3. If your Mac OS X version is between these versions, you do not need to install or configure anything else to use Python 2. However, this version of Python is great for learning, but not suitable for development. The Python version that ships with OS X may be out of date from the official current Python release, which is considered the stable production version._
 
    To install a more recent version of Python and the package manager pip, follow these steps:
 
-   Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running xcode-select --install on the terminal【24†source】.
+   Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running 
+   ```shell
+   xcode-select --install on the terminal.
+   ```
 
    Install Homebrew, a package manager that fills a void in OS X. Open Terminal or your favorite OS X terminal emulator and run the following command:
   ```shell
