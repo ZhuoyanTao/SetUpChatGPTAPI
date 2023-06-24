@@ -16,7 +16,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
 ## Steps
 
-1. **Install Python and pip**
+  **1.Install Python and pip**
 
    **Python and Pip Installation**
    
@@ -32,7 +32,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    ```
 
 
-3. **Install the OpenAI Python client**
+  **3. Install the OpenAI Python client**
 
    Open Terminal and run the following command:
 
@@ -40,11 +40,11 @@ This guide will walk you through the process of setting up the OpenAI API on you
    pip install openai
    ```
 
-4. **Get your OpenAI API key**
+  **4. Get your OpenAI API key**
 
    You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
 
-5. **Setup your OpenAI API key**
+  **5.Setup your OpenAI API key**
 
    You should save your API key in your environment variables for easy access. In Terminal, run:
 
@@ -55,7 +55,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
    _Replace your-api-key with your actual API key._
 
-6. **Verify the setup**
+  **6. Verify the setup**
 
    You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
@@ -80,7 +80,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    python3 test_openai.py
    ```
 
-7. **Setting up a VPN**
+  **7. Setting up a VPN**
 
    Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
