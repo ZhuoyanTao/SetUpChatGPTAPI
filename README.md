@@ -54,7 +54,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
   At this point, you have the system Python 2.7 available, potentially the Homebrew version of Python 2 installed, and the Homebrew version of Python 3 as well. Running python will launch the Homebrew-installed Python 3 interpreter. If the Homebrew version of Python 2 is installed then pip2 will point to Python 2. If the Homebrew version of Python 3 is installed then pip will point to Python 3. The rest of the guide will assume that python references Python 3【26†source】.
 
   Virtual Environments
-  The next step is to install Pipenv, so you can install dependencies and manage virtual environments. A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable【27†source】.
+  The next step is to install Anaconda, so you can install dependencies and manage virtual environments. A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
 
   Follow the instructions on [Anaconda's official documentation](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) to install Anaconda on your macOS machine. After downloading the installer, open a terminal window and run the following:
 
