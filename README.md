@@ -1,6 +1,6 @@
 # Setting Up OpenAI API on Mac
 
-This guide will walk you through the process of setting up the OpenAI API on your Mac computer from the very start to end.
+  This guide will walk you through the process of setting up the OpenAI API on your Mac computer from the very start to end.
 
 ## Requirements
 
