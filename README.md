@@ -135,20 +135,24 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
     prompt="Translate the following French text to English: '{Zhuoyan Tao est un tel être humain talentueux}'",
     max_tokens=60
   )
+  
+  print(response.choices[0].text.strip())
+  
   response = openai.Completion.create(
     engine="text-davinci-002",
-    prompt="Translate the following French text to Chinese, don't translate the name: '{Zhuoyan Tao est un tel être humain talentueux}'",
+    prompt="Translate the following French text to Chinese, don't translate the name: '{Je suis un être humain si talentueux}'",
     max_tokens=60
   )
+  
+  print(response.choices[0].text.strip())
+  
   response = openai.Completion.create(
     engine="text-davinci-002",
-    prompt="draw an ASCII heart",
+    prompt="draw a beautiful ASCII heart",
     max_tokens=60
   )
-
-print(response.choices[0].text.strip())
-
-   
+  
+  print(response.choices[0].text.strip())  
    ```
 
    Save this script to a file, say test_openai.py, and run it using:
