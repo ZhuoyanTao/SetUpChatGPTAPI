@@ -89,15 +89,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
   Replace myenv with the name of your virtual environment.
 
-  4: Install dependencies
-Once your virtual environment is activated, you can install your project dependencies. For example, if you have a requirements.txt file in your project, you can install all the listed packages with the following command:
-
-```bash
-conda install --file requirements.txt
-```
-
-```vbnet
-Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
+  Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
 ```
 
 _Congratulations for setting up everything we need, now let's get to the meat!_
