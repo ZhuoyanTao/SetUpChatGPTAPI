@@ -61,3 +61,10 @@ response = openai.Completion.create(
 print(response.choices[0].text.strip())
 
 ```
+
+Save this script to a file, say test_openai.py, and run it using:
+
+```shell
+python3 test_openai.py
+```
+
