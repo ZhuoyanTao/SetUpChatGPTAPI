@@ -18,14 +18,15 @@
 
    To install a more recent version of Python and the package manager pip, follow these steps:
 
-   Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running 
+   Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running the following command in the terminal:
    
    ```shell
    $ xcode-select --install
    ```
-   on the terminal.
+   
 
-   Install Homebrew, a package manager that fills a void in OS X. Open Terminal or your favorite OS X terminal emulator and run the following command:
+   Install Homebrew, a package manager that fills a void in OS X. 
+   Open Terminal or your favorite OS X terminal emulator and run the following command:
    ```shell
    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
