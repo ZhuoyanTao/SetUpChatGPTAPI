@@ -1,4 +1,4 @@
-# SetUpChatGPTAPI
+# SetUpChatGPT API
 Guide on Using ChatGPT via API
 Please always ensure that you are in compliance with local laws and regulations when setting up and using services like the OpenAI API.
 
@@ -75,9 +75,5 @@ This guide will walk you through the process of setting up the OpenAI API on you
    Note
    Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
 
-   ```yaml
-   ---
-   This README should provide a basic guide to get you started with the OpenAI API on your Mac in mainland China. Please replace `'your-api-key'` with   your actual OpenAI API key.
-   ```
 
 
