@@ -27,3 +27,17 @@ This guide will walk you through the process of setting up the OpenAI API on you
    ```shell
    pip install openai
    ```
+
+Get your OpenAI API key
+
+You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
+
+Setup your OpenAI API key
+
+You should save your API key in your environment variables for easy access. In Terminal, run:
+
+   ```shell
+   echo "export OPENAI_API_KEY='your-api-key'" >> ~/.bash_profile
+   source ~/.bash_profile
+   ```
+
