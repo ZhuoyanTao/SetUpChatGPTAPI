@@ -26,11 +26,12 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
    Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running 
    ```shell
-   xcode-select --install on the terminal.
+   $ xcode-select --install
    ```
+   on the terminal.
 
    Install Homebrew, a package manager that fills a void in OS X. Open Terminal or your favorite OS X terminal emulator and run the following command:
-  ```shell
+   ```shell
    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
@@ -40,7 +41,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    Open Terminal and run the following command:
 
    ```shell
-   pip install openai
+   $ pip install openai
    ```
 
   **4. Get your OpenAI API key**
