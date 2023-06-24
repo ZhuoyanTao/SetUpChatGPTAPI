@@ -210,7 +210,7 @@ while True:
         print('Error:', response.status_code, response.text)
 ```
 
-## That's It!!!! Well, Done!! You've Successfully Set Up Your Own Open AI API
+## That's It!!!! Well Done!! You've Successfully Set Up Your Own Open AI API
 Yes, you still have to pay Sam Altman, but now you've unleashed the possibility to customize this beast to your needs!
 
 ## Next Steps
