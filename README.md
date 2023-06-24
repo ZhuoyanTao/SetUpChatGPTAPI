@@ -155,7 +155,8 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    Note
    Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
 
-  **7.Create Your Own Interface**
+  **7. Create Your Own Interface**
+  
 To make your own interface for interacting with the ChatGPT API, you'll need to create an application that can send HTTP requests to the API, handle the response, and present it in a user-friendly way. This can be done in many programming languages and frameworks, and the specific steps will depend on the tools you're using.
 
 Here's a simplified example of how you might create a simple text-based interface in Python using the requests library:
