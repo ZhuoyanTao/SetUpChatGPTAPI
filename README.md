@@ -93,10 +93,10 @@
   Replace myenv with the name of your virtual environment.
 
   Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
-```
 
-_Congratulations for setting up everything we need, now let's get to the meat!_
-## Steps
+_Congratulations on setting up everything we need, now let's get to the meat!_
+
+ ## Steps
   **3. Install the OpenAI Python client**
 
    Open Terminal and run the following command:
