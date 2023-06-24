@@ -53,13 +53,19 @@
   **2. Set Up Virtual Environments**
   The next step is to install Anaconda, so you can install dependencies and manage virtual environments. A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
 
-  Follow the instructions on [Anaconda's official documentation](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) to install Anaconda on your macOS machine. After downloading the installer, open a terminal window and run the following:
+  While this tutorial should lead you through the entire process without the need of clicking on external links, in the case of errors, please refer to instructions on [Anaconda's official documentation](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) to install Anaconda on your macOS machine. After downloading the installer, open a terminal window and run the following:
 
  ```bash
  bash ~/Downloads/Anaconda3-2020.05-MacOSX-x86_64.sh
  ```
-
- Please replace ~/Downloads with your actual path, and .sh file name with the name of the file you downloaded.
+  **If this error message pop up in the terminal**
+  ```shell
+  zsh: command not found: conda
+  ```
+  **run the following command:**
+  ```shell
+  echo 'export PATH="/Users/username/anaconda3/bin:$PATH"' >> ~/.zshrc
+  ```
 
  To **verify** your installation, you can use the following command:
 
