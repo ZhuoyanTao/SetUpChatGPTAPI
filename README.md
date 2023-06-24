@@ -74,7 +74,7 @@
  conda --version
  ```
 
-  **3. Create and Activate a virtual environment**
+  **3. Create a virtual environment**
   Creating a virtual environment with Anaconda is straightforward. The command will look something like this:
 
    ```bash
@@ -83,21 +83,24 @@
 
   Replace myenv with the name of your virtual environment.
 
-  **4.Activate the virtual environment**
+
+
+_Congratulations on setting up everything we need, now let's get to the meat!_
+
+ ## Steps
+
+   **1.Activate the virtual environment**
   Before you start using the virtual environment, you need to activate it. You can do this with the following command:
 
   ```bash
   conda activate myenv
   ```
 
-  Replace myenv with the name of your virtual environment.
+  Replace myenv with the name of your virtual environment (that you created in the "Create a virtual environment" section).
 
   Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
-
-_Congratulations on setting up everything we need, now let's get to the meat!_
-
- ## Steps
-  **3. Install the OpenAI Python client**
+  
+  **2. Install the OpenAI Python client**
 
    Open Terminal and run the following command:
 
@@ -105,11 +108,11 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    $ pip install openai
    ```
 
-  **4. Get your OpenAI API key**
+  **3. Get your OpenAI API key**
 
    You need to apply for an API key from OpenAI. Visit the OpenAI website and follow the steps to apply for access. If approved, you will receive an API key.
 
-  **5.Setup your OpenAI API key**
+  **4.Setup your OpenAI API key**
 
    You should save your API key in your environment variables for easy access. In Terminal, run:
 
@@ -120,7 +123,7 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
 
    _Replace your-api-key with your actual API key._
 
-  **6. Verify the setup**
+  **5. Verify the setup**
 
    You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
@@ -145,7 +148,7 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    python3 test_openai.py
    ```
 
-  **7. Setting up a VPN**
+  **6. Setting up a VPN**
 
    Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
