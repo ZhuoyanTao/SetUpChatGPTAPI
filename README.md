@@ -205,14 +205,16 @@ while True:
     # Print the result
     if response.status_code == 200:
         result = response.json()
-        print('Translation:', result['choices'][0
-
+        print('Translation:', result['choices'][0]['text'])
+    else:
+        print('Error:', response.status_code, response.text)
 ```
 
-    This simplified User Interface example requires flask package, download it in **your conda environment(instead of base)** with the following command:
+## That's It!!!! Well, Done!! You've Successfully Set Up Your Own Open AI API
+Yes, you still have to pay Sam Altman, but now you've unleashed the possibility to customize this beast to your needs!
 
-    ```bash
-    pip install openai flask
-    ```
+## Next Steps
+To learn more about building your own interface, please refer to [Open AI's official tutorial](https://platform.openai.com/docs/quickstart/build-your-application)
+Yes, I could've covered it here, but you've accomplished a lot today, take a well-deserved break!
 
 
