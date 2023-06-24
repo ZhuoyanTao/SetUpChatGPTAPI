@@ -118,6 +118,7 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    ```
 
    _Replace your-api-key with your actual API key._
+   **Remember every time you change your API key, you need to run both commands above, not just the first one**
 
   **5. Verify the setup**
 
@@ -143,6 +144,11 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
    ```shell
    python3 test_openai.py
    ```
+  **if you encounter this error message: 
+  ```shell
+  openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+  ```
+  **it means you either did not register for an API plan (this is separate from chatGPT plan), or you have exceeded the quota for number of tokens for this month.**
 
   **6. Setting up a VPN**
 
