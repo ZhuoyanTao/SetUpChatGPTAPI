@@ -45,28 +45,28 @@ This guide will walk you through the process of setting up the OpenAI API on you
 
 5.**Verify the setup**
 
-You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
+   You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
-```python
-import openai
+   ```python
+   import openai
+   
+   openai.api_key = os.getenv("OPENAI_API_KEY")
+   
+   response = openai.Completion.create(
+     engine="text-davinci-002",
+     prompt="Translate the following English text to French: '{}'",
+     max_tokens=60
+   )
+   
+   print(response.choices[0].text.strip())
+   
+   ```
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+   Save this script to a file, say test_openai.py, and run it using:
 
-response = openai.Completion.create(
-  engine="text-davinci-002",
-  prompt="Translate the following English text to French: '{}'",
-  max_tokens=60
-)
-
-print(response.choices[0].text.strip())
-
-```
-
-Save this script to a file, say test_openai.py, and run it using:
-
-```shell
-python3 test_openai.py
-```
+   ```shell
+   python3 test_openai.py
+   ```
 
    6.**Setting up a VPN**
 
