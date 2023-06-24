@@ -41,3 +41,23 @@ You should save your API key in your environment variables for easy access. In T
    source ~/.bash_profile
    ```
 
+Replace your-api-key with your actual API key.
+
+3.Verify the setup
+
+You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
+
+```python
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+response = openai.Completion.create(
+  engine="text-davinci-002",
+  prompt="Translate the following English text to French: '{}'",
+  max_tokens=60
+)
+
+print(response.choices[0].text.strip())
+
+```
