@@ -41,9 +41,9 @@ This guide will walk you through the process of setting up the OpenAI API on you
    source ~/.bash_profile
    ```
 
-__Replace your-api-key with your actual API key.__
+   _Replace your-api-key with your actual API key._
 
-4.**Verify the setup**
+5.**Verify the setup**
 
 You can verify the setup by running a simple script that uses the OpenAI API. Here's a basic example:
 
@@ -68,16 +68,16 @@ Save this script to a file, say test_openai.py, and run it using:
 python3 test_openai.py
 ```
 
-5.**Setting up a VPN**
+   6.**Setting up a VPN**
 
    Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
    Note
    Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
 
-```yaml
----
-This README should provide a basic guide to get you started with the OpenAI API on your Mac in mainland China. Please replace `'your-api-key'` with your actual OpenAI API key.
-```
+   ```yaml
+   ---
+   This README should provide a basic guide to get you started with the OpenAI API on your Mac in mainland China. Please replace `'your-api-key'` with   your actual OpenAI API key.
+   ```
 
 
