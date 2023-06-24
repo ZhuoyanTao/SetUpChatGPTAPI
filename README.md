@@ -23,6 +23,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    To install a more recent version of Python and the package manager pip, follow these steps:
 
    Install GCC by downloading Xcode, the smaller Command Line Tools (you must have an Apple account) or the even smaller OSX-GCC-Installer package. If you already have Xcode installed, do not install OSX-GCC-Installer as they can cause issues together. If you perform a fresh install of Xcode, you will also need to add the command-line tools by running 
+   
    ```shell
    $ xcode-select --install
    ```
@@ -49,46 +50,46 @@ This guide will walk you through the process of setting up the OpenAI API on you
    $ brew install python
    ```
 
-  Homebrew also installs pip pointing to the Homebrew’d Python 3 for you【25†source】.
+  Homebrew also installs pip pointing to the Homebrew’d Python 3 for you.
 
   At this point, you have the system Python 2.7 available, potentially the Homebrew version of Python 2 installed, and the Homebrew version of Python 3 as well. Running python will launch the Homebrew-installed Python 3 interpreter. If the Homebrew version of Python 2 is installed then pip2 will point to Python 2. If the Homebrew version of Python 3 is installed then pip will point to Python 3. The rest of the guide will assume that python references Python 3【26†source】.
 
-  Virtual Environments
+  **2. Set Up Virtual Environments**
   The next step is to install Anaconda, so you can install dependencies and manage virtual environments. A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
 
   Follow the instructions on [Anaconda's official documentation](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) to install Anaconda on your macOS machine. After downloading the installer, open a terminal window and run the following:
 
-```bash
-bash ~/Downloads/Anaconda3-2020.05-MacOSX-x86_64.sh
-```
+ ```bash
+ bash ~/Downloads/Anaconda3-2020.05-MacOSX-x86_64.sh
+ ```
 
-Please replace ~/Downloads with your actual path, and .sh file name with the name of the file you downloaded.
+ Please replace ~/Downloads with your actual path, and .sh file name with the name of the file you downloaded.
 
-To verify your installation, you can use the following command:
+ To **verify** your installation, you can use the following command:
 
-```bash
-conda --version
-```
+ ```bash
+ conda --version
+ ```
 
-Step 2: Create a virtual environment
-Creating a virtual environment with Anaconda is straightforward. The command will look something like this:
+  **3. Create and Activate a virtual environment**
+  Creating a virtual environment with Anaconda is straightforward. The command will look something like this:
 
-```bash
-conda create --name myenv
-```
+   ```bash
+   conda create --name myenv
+   ```
 
-Replace myenv with the name of your virtual environment.
+  Replace myenv with the name of your virtual environment.
 
-Step 3: Activate the virtual environment
-Before you start using the virtual environment, you need to activate it. You can do this with the following command:
+  **4.Activate the virtual environment**
+  Before you start using the virtual environment, you need to activate it. You can do this with the following command:
 
-```bash
-conda activate myenv
-```
+  ```bash
+  conda activate myenv
+  ```
 
-Replace myenv with the name of your virtual environment.
+  Replace myenv with the name of your virtual environment.
 
-Step 4: Install dependencies
+  4: Install dependencies
 Once your virtual environment is activated, you can install your project dependencies. For example, if you have a requirements.txt file in your project, you can install all the listed packages with the following command:
 
 ```bash
@@ -99,6 +100,7 @@ conda install --file requirements.txt
 Note: The above instructions assume that the user is on macOS and the version of Python they are installing via Anaconda is Python 3.7. Please replace the Anaconda installer filename with the appropriate version for your system. If the users are on a different operating system, you might need to adjust the instructions accordingly.
 ```
 
+_Congratulations for setting up everything we need, now let's get to the meat!_
 ## Steps
   **3. Install the OpenAI Python client**
 
