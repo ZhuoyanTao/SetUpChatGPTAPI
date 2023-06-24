@@ -14,7 +14,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
 - OpenAI API key
 - A VPN service (depending on the internet restrictions)
 
-## Steps
+## Prerequisites -- Python and Pip
 
   **1.Install Python and pip**
 
@@ -35,7 +35,7 @@ This guide will walk you through the process of setting up the OpenAI API on you
    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
-
+## Steps
   **3. Install the OpenAI Python client**
 
    Open Terminal and run the following command:
