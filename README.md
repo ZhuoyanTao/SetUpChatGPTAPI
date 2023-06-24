@@ -56,6 +56,11 @@ This guide will walk you through the process of setting up the OpenAI API on you
   Virtual Environments
   The next step is to install Pipenv, so you can install dependencies and manage virtual environments. A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable【27†source】.
 
+  Follow the instructions on [Anaconda's official documentation](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) to install Anaconda on your macOS machine. After downloading the installer, open a terminal window and run the following:
+
+```bash
+bash ~/Downloads/Anaconda3-2020.05-MacOSX-x86_64.sh
+
 ## Steps
   **3. Install the OpenAI Python client**
 
