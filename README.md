@@ -219,6 +219,7 @@ Yes, you still have to pay Sam Altman, but now you've unleashed the possibility 
 
 ## Next Steps
 To learn more about building your own interface, please refer to [Open AI's official tutorial](https://platform.openai.com/docs/quickstart/build-your-application)
+
 Yes, I could've covered it here, but you've accomplished a lot today, take a well-deserved break!
 
 
