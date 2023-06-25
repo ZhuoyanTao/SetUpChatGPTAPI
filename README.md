@@ -168,7 +168,7 @@ _Congratulations on setting up everything we need, now let's get to the meat!_
 
   **6. Setting up a VPN**
 
-   Depending on the current internet restrictions in China, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac and connect to a server. Please note that using a VPN should comply with local laws and regulations.
+   Depending on the current internet restrictions in your region, you may need to use a VPN to access the OpenAI API. Choose a reliable VPN service, install it on your Mac, and connect to a server. Please note that using a VPN should comply with local laws and regulations.
 
    **Note**
    Always ensure you are complying with all local laws and regulations when using services like the OpenAI API. If there are any changes in policy or new restrictions after this guide is written, please check the latest OpenAI policy or news for updates.
